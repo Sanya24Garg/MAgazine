@@ -1,0 +1,21 @@
+body
+{
+    background-color:#4b4276;
+}
+
+.login
+{
+	 width:30%;
+	 height:250px;
+	 background-color:rgba(0,0,0,0.5);/*rgba() allows us to define a color with its opacity */
+	 margin: 0 auto; /* to align center*/
+	 margin-top:190px;
+	 padding-top:10px; /*css padding property used to generate space around na element's content inside of any define border*/
+ 	 padding-left:40px;
+	 border-radius:15px; /* border-radius property round the corner of element.*/
+	 color:lightblue;
+	 font-weight:bolder;
+	 box-shadow:inset -4px -4px rgba(0,0,0,0.4); /* use to create a shdaow of a box*/
+	 font-size:18px; /* to increase the weight of heading*/
+}
+

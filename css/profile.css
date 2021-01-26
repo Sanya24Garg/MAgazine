@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	background-image:url('../images/Nature/n2.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+
+}
+.AA h1
+{
+	padding-right:60px;
+}
+.AA
+{
+	 width:50%;
+	 height:400px;
+	 background-color:rgba(0,0,0,0.7);/*rgba() allows us to define a color with its opacity */
+	 margin: 0 auto; /* to align center*/
+	 margin-top:100px;
+	 padding-top:20px; /*css padding property used to generate space around na element's content inside of any define border*/
+ 	 padding-left:30px;
+	 border-radius:15px; /* border-radius property round the corner of element.*/
+	 color:white;
+	 font-weight:bolder;
+	 box-shadow: inset -4px -4px rgba(0,0,0,0.4); /* use to create a shdaow of a box*/
+	 font-size: 20px; /* to increase the weight of heading*/
+     text-align:left;
+     /*text-shadow: 2px 2px #ff0000;*/
+    color:greenyellow;
+       
+}
+.AA img
+{
+    border-radius: 80px 20px 80px 20px;
+}
+/*.AA input[type="text"]
+{
+	width:200px;
+	height:25px;
+	border:0;
+	border-radius:5px;
+	padding-left:5px;/* this property is used to align the placeholder value to the left side.*/
+/*	color:Black;
+	border-bottom:2px solid rgba(0,0,0,0.6);
+}
+.AA input[type="password"]
+{
+	width:200px;
+	height:25px;
+	border:0;
+	border-radius:5px;
+	padding-left:5px;
+	color:black;
+	border-bottom:2px solid rgba(0,0,0,0.6);/* to insert the border at the bottom of text box.*/
+	
+/*}
+.AA textarea[name="address"]
+{
+	width:200px;
+	height:50px;
+	border:0;
+	padding-left:5px;
+	border-radius:5px;
+	color:black;
+	border-bottom:2px solid rgba(0,0,0,0.6);
+}
+	*/
+
+.AA button
+{
+	width:100px;
+	height:35px;
+	border:0;
+	border-radius:5px;
+	background-color:skyblue;
+	width:100;
+    margin-right: -10px;
+    margin-top: 120px;
+    
+	/*margin:20px;*/
+
+}
+.AA a
+{
+    text-decoration: none;
+}
+/* CSS Document */
+

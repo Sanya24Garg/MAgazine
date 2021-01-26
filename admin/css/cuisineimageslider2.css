@@ -1,0 +1,33 @@
+.box    
+{
+    width: 1000px;
+    height:100px;
+}
+#slider
+{
+    width: 88%;
+    height: 400px;
+    margin: 20px auto;
+    /*position:relative;*/
+    border: 10px solid white;
+   box-shadow: 0px 0px 2px 2px #ccc;
+}
+button
+{
+    padding: 20px;
+    border: none;
+    background: #37f;
+    font-size: 30px;
+    color: white;
+    position:absolute;
+    top:50%;
+}
+.next
+{
+    border-radius: 10px 0px 0px 10px;
+    margin-left: 945px;
+}
+.prew
+{
+    border-radius: 0px 10px 10px 0px;
+}

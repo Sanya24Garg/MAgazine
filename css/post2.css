@@ -1,0 +1,26 @@
+.post
+        {
+          /*background:#fff;
+            height:100px;/*change height*/
+            width:100%;
+        /*    position:absolute;
+            /*float: right;*/
+        /*    top:100%;
+        /*    left:0;
+            right:0;
+            bottom:0;
+        */}
+.post input[type="submit"]
+{
+	width:100px;
+	height:35px;
+	border:0;
+	border-radius:5px;
+	background-color:white;
+	width:100;
+	margin:20px;
+    cursor: pointer;
+
+}
+            
+            

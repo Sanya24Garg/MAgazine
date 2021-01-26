@@ -1,0 +1,159 @@
+@charset "utf-8";
+/* CSS Document */
+*
+     {
+               margin:0;
+               padding:0;
+               font-family: 'Josefin Sans', sans-serif;
+               
+      }
+
+
+nav
+    { 
+       height: 80px;
+        background-color: #81ecec;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background: #81ecec;
+    }
+
+ .logo
+    {
+        width:40%;
+        color: #0984e3;
+        
+        padding-left: 40px;
+        
+    }
+   
+    
+.logo h1
+    {
+        text-transform: capitalize;
+        text-shadow: 2px 2px 2px #dfe6e9;
+    }
+       
+
+ .menu
+    {
+        width:60%;
+        display: flex;
+        justify-content: space-around;
+        align-items:center;
+       
+    }
+    
+.menu a
+    {
+        text-decoration: none;
+        color:#2d3436;
+        text-transform: uppercase;
+        font-weight: bold;
+        position: relative;
+    }
+
+.menu ul
+    {
+               list-style: none;/* to remove bullets*/
+               width:200;
+               display: flex;
+               justify-content: space-around;
+              align-items:center;
+               z-index: 15;
+               position: fixed;
+        
+    
+     }
+           
+
+.menu ul li a
+     {
+       
+        text-decoration: none;
+        color:#2d3436;
+        text-transform: uppercase;
+        font-weight: bold;
+        position: relative;
+        z-index: 10;
+               
+    }
+           
+ .menu ul li
+           {
+              
+                /*display: inline-block;
+                */list-style: none;
+                margin-left: 20px;
+                margin-top:25px;
+                position:relative;
+                float:left;
+                z-index: 10;
+               
+           }
+
+
+           
+.menu ul ul li 
+           {
+             margin-left: 5px;
+            
+           }
+
+          
+.menu ul ul
+    {
+               
+    display:none;
+    position:absolute;
+    }
+
+
+.menu ul ul li a
+           {
+             color:#6c5ce7;
+           }
+
+.menu ul li:hover ul
+           {
+               display: block;
+           }
+          
+        
+.menu a:before
+    {
+        content:"";
+        position: absolute;
+        left:0;
+        top:100%;
+        width: 0%;
+        height:2px;
+        background-color: #000;
+        transition: all 0.5s linear;
+    }
+
+.menu a:hover:before
+{
+        width:100%;
+        background-color: #675ce7;
+      
+    }
+    
+		  
+		  .fa
+             {
+                color:#fff;
+             }
+
+.h11
+{
+    margin-top:2px;
+    background-color:#fff;
+ 
+}
+
+
+ 
+    
+  

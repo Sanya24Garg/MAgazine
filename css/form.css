@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	background-image:url('../images/scene.jpg');
+	background-repeat:no-repeat;
+	background-size:cover
+}
+.AA h1
+{
+	padding-right:60px;
+}
+.AA
+{
+	 width:40%;
+	 height:600px;
+	 background-color:rgba(0,0,0,0.7);/*rgba() allows us to define a color with its opacity */
+	 margin: 0 auto; /* to align center*/
+	 margin-top:40px;
+	 padding-top:10px; /*css padding property used to generate space around na element's content inside of any define border*/
+ 	 padding-left:80px;
+	 border-radius:15px; /* border-radius property round the corner of element.*/
+	 color:white;
+	 font-weight:bolder;
+	 box-shadow: inset -4px -4px rgba(0,0,0,0.4); /* use to create a shdaow of a box*/
+	 font-size: 18px; /* to increase the weight of heading*/
+}
+.AA input[type="text"]
+{
+	width:200px;
+	height:25px;
+	border:0;
+	border-radius:5px;
+	padding-left:5px;/* this property is used to align the placeholder value to the left side.*/
+	color:Black;
+	border-bottom:2px solid rgba(0,0,0,0.6);
+}
+.AA input[type="password"]
+{
+	width:200px;
+	height:25px;
+	border:0;
+	border-radius:5px;
+	padding-left:5px;
+	color:black;
+	border-bottom:2px solid rgba(0,0,0,0.6);/* to insert the border at the bottom of text box.*/
+	
+}
+.AA textarea[name="address"]
+{
+	width:200px;
+	height:50px;
+	border:0;
+	padding-left:5px;
+	border-radius:5px;
+	color:black;
+	border-bottom:2px solid rgba(0,0,0,0.6);
+}
+	
+
+.AA input[type="submit"]
+{
+	width:100px;
+	height:35px;
+	border:0;
+	border-radius:5px;
+	background-color:skyblue;
+	width:100;
+	margin:20px;
+
+}
+/* CSS Document */
+

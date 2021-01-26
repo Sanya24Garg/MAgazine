@@ -1,0 +1,26 @@
+body
+{
+    background: url(../images/lightblue.jpg);
+    background-repeat: no-repeat;
+    
+}
+.home{
+    font-family: 'PT Sans', sans-serif;
+    color:#3c40c6;
+    text-align: center;
+}
+
+.paragraph{
+    word-spacing: 2px;
+    font-family: Roboto, sans-serif;
+    margin-top:10px;
+}
+.anjali
+{
+    margin-left: 69%;
+    height: 10px;
+    width: 10%;
+}
+
+
+

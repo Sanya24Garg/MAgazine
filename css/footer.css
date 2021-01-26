@@ -1,0 +1,63 @@
+  .main_footer
+        {
+            background:#81ecec;
+            height:200px;/*change hight*/
+            width:100%;
+            position:absolute;
+            top:100%;
+            left:0;
+            right:0;
+            bottom:0;
+        }
+        .first_section
+        {
+            width:33.33%; /* width is 100% so to create 3 column footer=>100/3=33.33 */
+            background:;
+            height:100%;
+            float:left;
+        }
+        
+        .second_section
+        {
+          width:33.33%;
+            
+            height:100%; 
+            float:left;
+        }
+        .second_section h1
+        {
+            color: aliceblue;
+            padding-left:40px; 
+        }
+        
+        .second_section ul li
+        {
+            list-style: none;
+            
+        }
+        
+        .second_section ul li a
+        {
+            text-decoration: none;
+            font-size: 18px;
+            color: aliceblue;  
+            letter-spacing: 2px;
+            
+        }
+        .third_section
+        {
+          width:33.33%;
+            
+            height:100%; 
+            margin-left:445px;
+            float:left;
+     
+        }
+        .third_section h1
+        {
+            
+            margin-bottom: 20px;
+            color:black;
+            padding-bottom: 10px;
+            
+        }

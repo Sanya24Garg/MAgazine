@@ -1,0 +1,228 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body
+{
+  font-size: 20px;    
+  overflow-x: hidden;/* it remove the scroll bar when content is overflow  which makes it responsive*/
+  color: white;
+ font-family:'Flamenco',cursive;
+}
+
+
+header
+{
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('../images/technology/t11.jpg'); /* to apply black overlay */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+}
+
+
+.clearfix:after     /* a clearfix is a way for an element to automatically clear its child element so that you don't need to add additional markup */
+{
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0px;
+    clear:both;
+}
+
+.share
+{
+    float:right;
+    
+}
+
+.row
+{
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
+
+
+.logo
+{
+    height: 120px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+    
+}
+
+.main-nav
+{
+    float: right;
+    margin-top: 10px;
+    margin-left: 50%;
+    
+}
+
+/*.main-nav li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 40px;
+    
+}
+
+/*.main-nav li a
+{
+    padding:5px 5px; /*padding top-down 5px and left right 5px in against of 1180 px which actual width of header */
+ /* color:chartreuse;
+    text-decoration: none; 
+    text-transform: uppercase;
+    font-size: 90%;
+    font-weight: 100;
+    
+}
+
+.main-nav li a:hover
+{
+    border-bottom: 2px solid blue; /* property of border bottom width=2px border type=solid border color*/
+    
+/*}*/
+.main-content-header
+{
+    width:1180px;
+    position: absolute;
+    top:55%;
+    left:50%;
+    transform: translate(-50%,50%); /* it takes two argument x axis and y axis*/
+    
+}
+
+h1
+{
+    color: #fff;
+    font-size: 240%;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+   margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+.btn
+{
+    padding: 10px 30px; /*padding top-down 10px and left right 30px in against of 1180 px which actual width of header */
+    font-weight: lighter;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 200px;
+    background-color: transparent;
+    color:#fff;/* color of text*/
+    border:1px solid #fff;/* border property width=1px border type=solid  border color=#fff*/
+}
+
+
+
+.btn:hover
+{
+   background-color:dodgerblue; 
+}
+
+.colorchange
+{
+    animation: colorchangeKANORIA 1s infinite; /* animation is a property of css3  which is use to change the color of a text in a frequent second*/
+}
+
+@keyframes colorchangeKANORIA
+{
+    0%{color:blueviolet;}
+    25%{color:darkorange;}
+    50%{color:white;}
+    100%{color:blue;}
+}
+
+.colorchange2
+{
+    animation: colorchangeCOLLEGE 1s infinite; /* animation is a property of css3  which is use to change the color of a text in a frequent second*/
+}
+
+@keyframes colorchangeCOLLEGE 
+{
+    0%{color:blueviolet;}
+    25%{color:darkorange;}
+    50%{color:white;}
+    100%{color:blue;}
+}
+
+
+
+.fa
+{
+    color:#fff;
+}
+
+.name
+{
+    font-size: 240%;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    margin-left: 25%;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.change1{
+    animation: change1Aakriti 1s infinite;
+}
+
+@keyframes change1Aakriti
+{
+    0%{color:burlywood;}
+    25%{color:darkseagreen;}
+    50%{color:#ff55ec;}
+    100%{color:chocolate;}
+}
+
+
+
+.change2{
+    animation: change2Web 1s infinite;
+}
+
+
+@keyframes change2Web
+{
+    0%{color:burlywood;}
+    25%{color:darkseagreen;}
+    50%{color:#ff55ec;}
+    100%{color:chocolate;}
+}
+
+
+.change3{
+    animation: change3Magazine 1s infinite;
+}
+
+
+@keyframes change3Magazine
+{
+    0%{color:burlywood;}
+    25%{color:darkseagreen;}
+    50%{color:#ff55ec;}
+    100%{color:chocolate;}
+}
+
+
+/*///////////RESPONSIVE QUERIES ////////////////*/
+
+@media only screen and (max-width:1180px)/* text responsive*/
+{
+   .main-content-header
+    {
+        width:100%;
+        padding:0 2%;
+    }
+}
